@@ -1,0 +1,80 @@
+body{font-size: 12pt; 
+    line-height: 17pt;
+}
+.body{
+    background:#000000;
+}
+td{font-FAMILY:宋体;font-size: 9pt; line-height: 160%}
+.article_title{font-FAMILY:宋体;font-size: 19pt;  letter-spacing: 2px; line-height: 130%; margin: 6; font-weight: bold;}
+.newfont2{font-FAMILY:宋体;font-size: 9pt; line-height: 12pt}
+.newfont3{font-FAMILY:宋体;font-size: 9pt; line-height: 12pt}
+.thetd{font-FAMILY:宋体;font-size: 12pt; color:#000000;line-height: 160%;font-weight:None;font-style: None}
+INPUT
+{
+    BORDER-BOTTOM-COLOR: #FFFFFF;
+    BORDER-BOTTOM-WIDTH: 1px;
+    BORDER-LEFT-COLOR: #cccccc;
+    BORDER-LEFT-WIDTH: 1px;
+    BORDER-RIGHT-COLOR: #cccccc;
+    BORDER-RIGHT-WIDTH: 1px;
+    BORDER-TOP-COLOR: #cccccc;
+    BORDER-TOP-WIDTH: 1px;
+    FONT-FAMILY: 宋体;
+    FONT-SIZE: 9pt;
+    HEIGHT: 18px;
+    PADDING-BOTTOM: 1px;
+    PADDING-LEFT: 1px;
+    PADDING-RIGHT: 1px;
+    PADDING-TOP: 1px
+}
+a:link {color: #FFFFFF}
+a:visited {color: #AAAAAA}
+a:hover {color: #FF0000}
+a:active {color: #AAAAAA}
+a{
+
+text-decoration:none;
+
+}
+
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+.clear-fix:after {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+.table-container
+{
+width: 100%;
+overflow-y: auto;
+_overflow: auto;
+margin: 0 0 1em;
+}
+table{border:0; border-collapse:collapse;}
+table td,table th{border:1px solid #999; padding:.5em 1em}
+//添加IOS下滚动条
+.table-container::-webkit-scrollbar
+{
+-webkit-appearance: none;
+width: 14px;
+height: 14px;
+}
+
+.table-container::-webkit-scrollbar-thumb
+{
+border-radius: 8px;
+border: 3px solid #fff;
+background-color: rgba(0, 0, 0, .3);
+}
+img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
