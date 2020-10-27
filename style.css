@@ -4,11 +4,11 @@ body{font-size: 12pt;
 .body{
     background:#000000;
 }
-td{font-FAMILY:瀹嬩綋;font-size: 9pt; line-height: 160%}
-.article_title{font-FAMILY:瀹嬩綋;font-size: 19pt;  letter-spacing: 2px; line-height: 130%; margin: 6; font-weight: bold;}
-.newfont2{font-FAMILY:瀹嬩綋;font-size: 9pt; line-height: 12pt}
-.newfont3{font-FAMILY:瀹嬩綋;font-size: 9pt; line-height: 12pt}
-.thetd{font-FAMILY:瀹嬩綋;font-size: 12pt; color:#000000;line-height: 160%;font-weight:None;font-style: None}
+td{font-FAMILY:宋体;font-size: 9pt; line-height: 160%}
+.article_title{font-FAMILY:宋体;font-size: 19pt;  letter-spacing: 2px; line-height: 130%; margin: 6; font-weight: bold;}
+.newfont2{font-FAMILY:宋体;font-size: 9pt; line-height: 12pt}
+.newfont3{font-FAMILY:宋体;font-size: 9pt; line-height: 12pt}
+.thetd{font-FAMILY:宋体;font-size: 12pt; color:#000000;line-height: 160%;font-weight:None;font-style: None}
 INPUT
 {
     BORDER-BOTTOM-COLOR: #FFFFFF;
@@ -19,7 +19,7 @@ INPUT
     BORDER-RIGHT-WIDTH: 1px;
     BORDER-TOP-COLOR: #cccccc;
     BORDER-TOP-WIDTH: 1px;
-    FONT-FAMILY: 瀹嬩綋;
+    FONT-FAMILY: 宋体;
     FONT-SIZE: 9pt;
     HEIGHT: 18px;
     PADDING-BOTTOM: 1px;
@@ -58,7 +58,7 @@ margin: 0 0 1em;
 }
 table{border:0; border-collapse:collapse;}
 table td,table th{border:1px solid #999; padding:.5em 1em}
-//娣诲姞IOS涓嬫粴鍔ㄦ潯
+//添加IOS下滚动条
 .table-container::-webkit-scrollbar
 {
 -webkit-appearance: none;
