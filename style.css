@@ -58,7 +58,7 @@ margin: 0 0 1em;
 }
 table{border:0; border-collapse:collapse;}
 table td,table th{border:1px solid #999; padding:.5em 1em}
-//添加IOS下滚动条
+
 .table-container::-webkit-scrollbar
 {
 -webkit-appearance: none;
